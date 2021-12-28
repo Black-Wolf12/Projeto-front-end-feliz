@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>projeto aleatorio para prática</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'/>
+        <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="image/logo.png">
+    </head>
+ <!--white-space: nowarap (serve para não quebrar linha a menos que queira. CSS)-->
+<body> 
+
+<header>
+    <div id="logo">
+        <img src="image/logo.png">
+    </div>
+    <nav id="nav-menu">
+        <a href="#">Skills</a>
+        <a href="#">Projetos</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contatos</a>
+       <button>Download CV</button>
+    </nav>
+</header>
+
+<nav id="nav-menu-mobile">
+    <i id="nav-close" onclick="Close()" class="fas fa-times"></i>
+    <div>
+        <a href="#">Skills</a>
+        <a href="#">Projetos</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contatos</a>
+    </div>
+</nav>
+
+<section id="apresentacao">
+       <div class="conteudo">
+        <i id="barOpen" onclick="Open()" class="fas fa-bars"></i>
+           <div class="box-text1">
+               <h1>Bruno Marques</h1>
+               <br>
+               <h2>Front End Developer</h2>
+           </div>
+           <div class="box-text2">
+               <div class="contato-download">
+                    <a href="#"><h2>Dowload CV</h2></a>
+                </div>
+                <div class="contato-download">
+                    <a href="#"><h2>Contato</h2></a>
+                </div>
+           </div>
+       </div> 
+</section>
+
+<section id="container-skills">
+    <h1>Skills</h1>
+    <div class="box-skills">
+
+        <div class="skills">
+
+            <div class="alinhamento-skills">
+                <img src="image/img-html.png">
+                <div class="text">
+                    <h2>HTML</h2>   
+                    <div class="all-skills">
+                        <div class="bar-color"></div>
+                    </div> <!--all-skills-->
+                </div> <!--text-->
+            </div> <!--alinhamento-skills-->
+
+            <div class="alinhamento-skills">
+                <img src="image/img-css.png">
+                <div class="text">
+                    <h2>CSS</h2>   
+                    <div class="all-skills">
+                        <div class="bar-color"></div>
+                    </div> <!--all-skills-->
+                </div> <!--text-->
+            </div> <!--alinhamento-skills-->
+
+            <div class="alinhamento-skills">
+                <img src="image/img-js.png">
+                <div class="text">
+                    <h2>JavaScript</h2>   
+                    <div class="all-skills">
+                        <div class="bar-color"></div>
+                    </div> <!--all-skills-->
+                </div> <!--text-->
+            </div> <!--alinhamento-skills-->
+
+            <div class="alinhamento-skills">
+                <img src="image/img-react.png">
+                <div class="text">
+                    <h2>React</h2>   
+                    <div class="all-skills">
+                        <div class="bar-color"></div>
+                    </div> <!--all-skills-->
+                </div> <!--text-->
+            </div> <!--alinhamento-skills-->
+
+        </div> <!--skills-->
+
+        
+        <div class="skills">
+
+            <div class="alinhamento-skills2">
+                <img src="image/img-nodejs.png">
+                <div class="text">
+                    <h2>NodeJS</h2>   
+                    <div class="all-skills">
+                        <div class="bar-color"></div>
+                    </div> <!--all-skills-->
+                </div> <!--text-->
+            </div> <!--alinhamento-skills-->
+
+            <div class="alinhamento-skills2">
+                <img src="image/img-tdd.png">
+                <div class="text">
+                    <h2>TDD</h2>   
+                    <div class="all-skills">
+                        <div class="bar-color"></div>
+                    </div> <!--all-skills-->
+                </div> <!--text-->
+            </div> <!--alinhamento-skills-->
+
+            <div class="alinhamento-skills2">
+                <img  class="rest-ux" src="image/img-restapi.png">
+                <div class="text">
+                    <h2>Rest API</h2>   
+                    <div class="all-skills">
+                        <div class="bar-color"></div>
+                    </div> <!--all-skills-->
+                </div> <!--text-->
+            </div> <!--alinhamento-skills-->
+
+            <div class="alinhamento-skills2">
+                <img class="rest-ux" src="image/img-ux.png">
+                <div class="text">
+                    <h2>UX</h2>   
+                    <div class="all-skills">
+                        <div class="bar-color"></div>
+                    </div> <!--all-skills-->
+                </div> <!--text-->
+            </div> <!--alinhamento-skills-->
+        </div> <!--skills-->
+    </div> <!--box-skills-->
+</section>
+
+<section id="projetos">
+    <h1>Projetos</h1>
+        <div class="container-projetos">
+            <div class="projetos-img">
+                <img src="image/logo-firedlabs.png">
+            </div>
+
+            <div class="projetos-collabe">
+                <img src="image/logo-collabcode.png">
+            </div>
+
+            <div class="projetos-logo">
+                <img src="image/portfolio.png">
+            </div>
+        </div>
+</section>
+
+<section id="sobre">
+    <h1>Sobre</h1>
+    <div class="container-sobre">
+        <div class="projetos-dates">
+            <div class="datas">
+                <h2 class="h2-0">2012</h2>
+                <h2 class="h2-1">2014</h2>
+                <h2 class="h2-2">2016</h2>
+                <h2 class="h2-3">2017</h2>
+                <h2 class="h2-4">2018</h2>
+                <h2 class="h2-5">2019</h2>
+            </div>
+            <div class="projetos-feitos">
+                <div class="projeto-loca-impulso"><img src="image/logo-locaweb.png"></div>
+                <div class="caelum1"><img src="image/caelum-2.png"></div>              
+                <div class="ninja-img"><img src="image/logo-getninjas.png"></div>
+                <div class="caelum1"><img src="image/logo-caelum.png"></div>
+                <div class="projeto-loca-impulso"><img src="image/logo-impulso.png"></div>
+                <div class="collabe-img"><img src="image/logo-collabcode3.png"></div>
+            </div>
+             
+            <div class="projetos-feitos-mobile">
+                <div class="projeto-loca-impulso-mobile"><img src="image/logo-locaweb.png"></div>
+                <div class="caelum"><img src="image/caelum-2.png"></div>              
+                <div class="ninja-img-mobile"><img src="image/logo-getninjas.png"></div>
+                <div class="caelum"><img src="image/logo-caelum.png"></div>
+                <div class="projeto-loca-impulso-mobile"><img src="image/logo-impulso.png"></div>
+                <div class="collabe-img-mobile"><img src="image/logo-collabcode3.png"></div>
+            </div> 
+        </div>
+        <div class="texto-sobre">
+            <p>Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
+        </div>
+    </div>
+</section>
+
+<section id="formulario-contato">
+    <h1>Contato</h1>
+    <div id="formulario">
+        <form>
+        <label class="name-label" for="name">Nome</label>
+        <input type="text" name="">
+        <label class="name-label" for="E-mail">E-mail</label>
+        <input type="text" name="">
+        <label class="name-label" for="Mensagem">Mensagem</label>
+        <textarea></textarea>
+        <input type="submit" name="Enviar">
+        </form>
+    </div>
+</section>
+<footer>
+    <a target="_blank" href=""><i class="fab fa-twitter-square"></i></a>
+    <a target="_blank" href="https://www.youtube.com/channel/UCVheRLgrk7bOAByaQ0IVolg"><i class="fab fa-youtube"></i></a>
+    <a target="_blank" href=""> <i class="fab fa-discord"></i></a>
+</footer>
+
+    <script src="jquery.js" ></script>
+    <script src="slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
